@@ -22,8 +22,10 @@ export default function Home() {
       {/* Header / Navigation */}
       <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
         {/* Logo Banner */}
-        <div className="w-full bg-black border-b border-border/40">
-          <img src="/logo.png" alt="Arcadia Informatique Services" className="w-full h-auto max-h-32 object-contain" />
+        <div className="w-full bg-black border-b border-orange-500/20 relative overflow-hidden" style={{ backgroundImage: 'url(/circuit-pattern.svg)', backgroundSize: '400px 400px', backgroundPosition: 'center' }}>
+          <div className="w-full py-12 flex justify-center">
+            <img src="/logo.jpg" alt="Arcadia Informatique Services" className="w-[80%] max-w-5xl h-auto object-contain" />
+          </div>
         </div>
         {/* Navigation */}
         <div className="container flex h-16 items-center justify-between">
