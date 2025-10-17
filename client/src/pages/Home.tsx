@@ -24,7 +24,7 @@ export default function Home() {
         {/* Logo Banner */}
         <div className="w-full bg-black border-b border-border/40 relative overflow-hidden" style={{ backgroundImage: 'url(/circuit-pattern.svg)', backgroundSize: '400px 400px', backgroundPosition: 'center' }}>
           <div className="container py-8 flex justify-center">
-            <img src="/logo.png" alt="Arcadia Informatique Services" className="h-48 w-auto object-contain" />
+            <img src="/logo.jpg" alt="Arcadia Informatique Services" className="w-[80%] h-auto object-contain" />
           </div>
         </div>
         {/* Navigation */}
