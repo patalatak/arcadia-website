@@ -21,10 +21,12 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       {/* Header / Navigation */}
       <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
-        <div className="container flex h-20 items-center justify-between">
-          <div className="flex items-center gap-4">
-            <img src="/logo.png" alt="Arcadia" className="h-12 w-auto" />
-          </div>
+        {/* Logo Banner */}
+        <div className="w-full bg-black border-b border-border/40">
+          <img src="/logo.png" alt="Arcadia Informatique Services" className="w-full h-auto max-h-32 object-contain" />
+        </div>
+        {/* Navigation */}
+        <div className="container flex h-16 items-center justify-between">
           <nav className="hidden md:flex items-center gap-8">
             <a href="#accueil" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">Accueil</a>
             <a href="#services" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">Services</a>
