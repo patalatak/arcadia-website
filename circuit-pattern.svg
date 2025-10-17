@@ -1,0 +1,32 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="circuit" x="0" y="0" width="400" height="400" patternUnits="userSpaceOnUse">
+      <!-- Lignes horizontales -->
+      <path d="M 50 50 L 150 50" stroke="rgba(255,255,255,0.05)" stroke-width="2" fill="none"/>
+      <path d="M 200 100 L 350 100" stroke="rgba(255,255,255,0.05)" stroke-width="2" fill="none"/>
+      <path d="M 30 200 L 180 200" stroke="rgba(255,255,255,0.05)" stroke-width="2" fill="none"/>
+      <path d="M 250 300 L 370 300" stroke="rgba(255,255,255,0.05)" stroke-width="2" fill="none"/>
+      
+      <!-- Lignes verticales -->
+      <path d="M 150 50 L 150 150" stroke="rgba(255,255,255,0.05)" stroke-width="2" fill="none"/>
+      <path d="M 100 120 L 100 250" stroke="rgba(255,255,255,0.05)" stroke-width="2" fill="none"/>
+      <path d="M 300 80 L 300 200" stroke="rgba(255,255,255,0.05)" stroke-width="2" fill="none"/>
+      <path d="M 250 250 L 250 380" stroke="rgba(255,255,255,0.05)" stroke-width="2" fill="none"/>
+      
+      <!-- Coins arrondis -->
+      <path d="M 150 150 L 200 150 Q 220 150 220 170 L 220 200" stroke="rgba(255,255,255,0.05)" stroke-width="2" fill="none"/>
+      <path d="M 100 250 L 150 250 Q 170 250 170 270 L 170 300" stroke="rgba(255,255,255,0.05)" stroke-width="2" fill="none"/>
+      
+      <!-- Points de connexion -->
+      <circle cx="50" cy="50" r="4" fill="rgba(255,140,0,0.1)"/>
+      <circle cx="150" cy="50" r="4" fill="rgba(255,140,0,0.1)"/>
+      <circle cx="150" cy="150" r="4" fill="rgba(255,140,0,0.1)"/>
+      <circle cx="100" cy="120" r="4" fill="rgba(255,140,0,0.1)"/>
+      <circle cx="220" cy="170" r="4" fill="rgba(255,140,0,0.1)"/>
+      <circle cx="300" cy="200" r="4" fill="rgba(255,140,0,0.1)"/>
+      <circle cx="250" cy="300" r="4" fill="rgba(255,140,0,0.1)"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="400" fill="url(#circuit)"/>
+</svg>
+
