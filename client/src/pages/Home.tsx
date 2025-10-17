@@ -23,8 +23,8 @@ export default function Home() {
       <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
         {/* Logo Banner */}
         <div className="w-full bg-black border-b border-border/40 relative overflow-hidden" style={{ backgroundImage: 'url(/circuit-pattern.svg)', backgroundSize: '400px 400px', backgroundPosition: 'center' }}>
-          <div className="container py-6 flex justify-center">
-            <img src="/logo.png" alt="Arcadia Informatique Services" className="h-24 w-auto object-contain" />
+          <div className="container py-8 flex justify-center">
+            <img src="/logo.png" alt="Arcadia Informatique Services" className="h-48 w-auto object-contain" />
           </div>
         </div>
         {/* Navigation */}
